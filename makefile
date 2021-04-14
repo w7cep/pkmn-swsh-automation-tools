@@ -1,10 +1,14 @@
 all:
+	make -f GodEgg.mk
 	make -f wattsfarmer.mk
 	make -f repeat-a.mk
 	make -f masterballs.mk
 	make -f wildareabreeding.mk
 	make -f releasebox.mk
-
+	
+GodEgg:
+	make -f GodEgg.mk
+	
 watts:
 	make -f wattsfarmer.mk
 
